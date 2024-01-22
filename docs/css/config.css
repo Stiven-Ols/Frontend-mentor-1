@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrapper {
+    @apply w-[90%] mx-auto max-w-screen-xl;
+  }
+
+  .card {
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    /* height: 550px; */
+    border-radius: 15px;
+    /* padding: 30px; */
+    box-shadow: 10px 10px 0px 1px rgba(0,0,0,0.75);
+  }
+
+  .card-img img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .card-tagg {
+    background-color: #F4D04E;
+    border-radius: 5px;
+    padding: 4px 15px;
+    font-weight: 800;
+  }
+
+  .card-date {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  .card-title {
+    font-weight: 800;
+    font-size: 1.5em;
+  }
+
+  .card-info {
+    font-weight: 300;
+    color: #808080;
+  }
+
+  .card-avatar img {
+    height: 32px;
+    width: 32px;
+  }
+
+
+
+
+
+
+
+
+
+
+}
